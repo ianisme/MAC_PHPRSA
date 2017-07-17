@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C6DFBEA1F1D15F5009D9DA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6DFBE91F1D15F5009D9DA3 /* AppDelegate.m */; };
+		3C6DFBED1F1D15F5009D9DA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6DFBEC1F1D15F5009D9DA3 /* main.m */; };
+		3C6DFBF01F1D15F5009D9DA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6DFBEF1F1D15F5009D9DA3 /* ViewController.m */; };
+		3C6DFBF21F1D15F5009D9DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6DFBF11F1D15F5009D9DA3 /* Assets.xcassets */; };
+		3C6DFBF51F1D15F5009D9DA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6DFBF31F1D15F5009D9DA3 /* Main.storyboard */; };
+		3C6DFC0B1F1D1917009D9DA3 /* CCMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6DFBFE1F1D1917009D9DA3 /* CCMBase64.m */; };
+		3C6DFC0C1F1D1917009D9DA3 /* CCMCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6DFC001F1D1917009D9DA3 /* CCMCryptor.m */; };
+		3C6DFC0D1F1D1917009D9DA3 /* CCMKeyLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6DFC021F1D1917009D9DA3 /* CCMKeyLoader.m */; };
+		3C6DFC0E1F1D1917009D9DA3 /* CCMPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6DFC041F1D1917009D9DA3 /* CCMPrivateKey.m */; };
+		3C6DFC0F1F1D1917009D9DA3 /* CCMPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6DFC071F1D1917009D9DA3 /* CCMPublicKey.m */; };
+		3C6DFC101F1D1917009D9DA3 /* CSSMRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6DFC0A1F1D1917009D9DA3 /* CSSMRSACryptor.m */; };
+		3C6DFC131F1D195C009D9DA3 /* NetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6DFC121F1D195C009D9DA3 /* NetworkService.m */; };
+		4CFCFA7BC2D59B7F6B4F60EC /* libPods-RSATest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D65AD2A8B5CB8B5CB5CE29F /* libPods-RSATest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06B7BD1BD7ECB9FC8C9C079C /* Pods-RSATest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSATest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSATest/Pods-RSATest.debug.xcconfig"; sourceTree = "<group>"; };
+		3C6DFBE51F1D15F5009D9DA3 /* RSATest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSATest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6DFBE81F1D15F5009D9DA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C6DFBE91F1D15F5009D9DA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C6DFBEC1F1D15F5009D9DA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C6DFBEE1F1D15F5009D9DA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C6DFBEF1F1D15F5009D9DA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C6DFBF11F1D15F5009D9DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C6DFBF41F1D15F5009D9DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C6DFBF61F1D15F5009D9DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6DFBFD1F1D1917009D9DA3 /* CCMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMBase64.h; sourceTree = "<group>"; };
+		3C6DFBFE1F1D1917009D9DA3 /* CCMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMBase64.m; sourceTree = "<group>"; };
+		3C6DFBFF1F1D1917009D9DA3 /* CCMCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMCryptor.h; sourceTree = "<group>"; };
+		3C6DFC001F1D1917009D9DA3 /* CCMCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMCryptor.m; sourceTree = "<group>"; };
+		3C6DFC011F1D1917009D9DA3 /* CCMKeyLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMKeyLoader.h; sourceTree = "<group>"; };
+		3C6DFC021F1D1917009D9DA3 /* CCMKeyLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMKeyLoader.m; sourceTree = "<group>"; };
+		3C6DFC031F1D1917009D9DA3 /* CCMPrivateKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPrivateKey.h; sourceTree = "<group>"; };
+		3C6DFC041F1D1917009D9DA3 /* CCMPrivateKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMPrivateKey.m; sourceTree = "<group>"; };
+		3C6DFC051F1D1917009D9DA3 /* CCMPrivateKey_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPrivateKey_internal.h; sourceTree = "<group>"; };
+		3C6DFC061F1D1917009D9DA3 /* CCMPublicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPublicKey.h; sourceTree = "<group>"; };
+		3C6DFC071F1D1917009D9DA3 /* CCMPublicKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMPublicKey.m; sourceTree = "<group>"; };
+		3C6DFC081F1D1917009D9DA3 /* CCMPublicKey_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPublicKey_internal.h; sourceTree = "<group>"; };
+		3C6DFC091F1D1917009D9DA3 /* CSSMRSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSMRSACryptor.h; sourceTree = "<group>"; };
+		3C6DFC0A1F1D1917009D9DA3 /* CSSMRSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSMRSACryptor.m; sourceTree = "<group>"; };
+		3C6DFC111F1D195C009D9DA3 /* NetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkService.h; sourceTree = "<group>"; };
+		3C6DFC121F1D195C009D9DA3 /* NetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkService.m; sourceTree = "<group>"; };
+		9D65AD2A8B5CB8B5CB5CE29F /* libPods-RSATest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSATest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA2E9FD8A4B8D4D3C5868FC /* Pods-RSATest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSATest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSATest/Pods-RSATest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C6DFBE21F1D15F5009D9DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFCFA7BC2D59B7F6B4F60EC /* libPods-RSATest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C6DFBDC1F1D15F5009D9DA3 = {
+			isa = PBXGroup;
+			children = (
+				3C6DFBE71F1D15F5009D9DA3 /* RSATest */,
+				3C6DFBE61F1D15F5009D9DA3 /* Products */,
+				F95E6E7565A2DFD4058942C4 /* Pods */,
+				516AFC40ED394DA5A8EBE9CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C6DFBE61F1D15F5009D9DA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C6DFBE51F1D15F5009D9DA3 /* RSATest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C6DFBE71F1D15F5009D9DA3 /* RSATest */ = {
+			isa = PBXGroup;
+			children = (
+				3C6DFBFC1F1D1917009D9DA3 /* CocoaCryptoMac */,
+				3C6DFBE81F1D15F5009D9DA3 /* AppDelegate.h */,
+				3C6DFBE91F1D15F5009D9DA3 /* AppDelegate.m */,
+				3C6DFBEE1F1D15F5009D9DA3 /* ViewController.h */,
+				3C6DFBEF1F1D15F5009D9DA3 /* ViewController.m */,
+				3C6DFC111F1D195C009D9DA3 /* NetworkService.h */,
+				3C6DFC121F1D195C009D9DA3 /* NetworkService.m */,
+				3C6DFBF11F1D15F5009D9DA3 /* Assets.xcassets */,
+				3C6DFBF31F1D15F5009D9DA3 /* Main.storyboard */,
+				3C6DFBF61F1D15F5009D9DA3 /* Info.plist */,
+				3C6DFBEB1F1D15F5009D9DA3 /* Supporting Files */,
+			);
+			path = RSATest;
+			sourceTree = "<group>";
+		};
+		3C6DFBEB1F1D15F5009D9DA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C6DFBEC1F1D15F5009D9DA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C6DFBFC1F1D1917009D9DA3 /* CocoaCryptoMac */ = {
+			isa = PBXGroup;
+			children = (
+				3C6DFBFD1F1D1917009D9DA3 /* CCMBase64.h */,
+				3C6DFBFE1F1D1917009D9DA3 /* CCMBase64.m */,
+				3C6DFBFF1F1D1917009D9DA3 /* CCMCryptor.h */,
+				3C6DFC001F1D1917009D9DA3 /* CCMCryptor.m */,
+				3C6DFC011F1D1917009D9DA3 /* CCMKeyLoader.h */,
+				3C6DFC021F1D1917009D9DA3 /* CCMKeyLoader.m */,
+				3C6DFC031F1D1917009D9DA3 /* CCMPrivateKey.h */,
+				3C6DFC041F1D1917009D9DA3 /* CCMPrivateKey.m */,
+				3C6DFC051F1D1917009D9DA3 /* CCMPrivateKey_internal.h */,
+				3C6DFC061F1D1917009D9DA3 /* CCMPublicKey.h */,
+				3C6DFC071F1D1917009D9DA3 /* CCMPublicKey.m */,
+				3C6DFC081F1D1917009D9DA3 /* CCMPublicKey_internal.h */,
+				3C6DFC091F1D1917009D9DA3 /* CSSMRSACryptor.h */,
+				3C6DFC0A1F1D1917009D9DA3 /* CSSMRSACryptor.m */,
+			);
+			path = CocoaCryptoMac;
+			sourceTree = "<group>";
+		};
+		516AFC40ED394DA5A8EBE9CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D65AD2A8B5CB8B5CB5CE29F /* libPods-RSATest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F95E6E7565A2DFD4058942C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06B7BD1BD7ECB9FC8C9C079C /* Pods-RSATest.debug.xcconfig */,
+				CEA2E9FD8A4B8D4D3C5868FC /* Pods-RSATest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C6DFBE41F1D15F5009D9DA3 /* RSATest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6DFBF91F1D15F5009D9DA3 /* Build configuration list for PBXNativeTarget "RSATest" */;
+			buildPhases = (
+				A0F315FB16EE71A52E2924D2 /* [CP] Check Pods Manifest.lock */,
+				3C6DFBE11F1D15F5009D9DA3 /* Sources */,
+				3C6DFBE21F1D15F5009D9DA3 /* Frameworks */,
+				3C6DFBE31F1D15F5009D9DA3 /* Resources */,
+				E021B464B59CAB04844F6578 /* [CP] Embed Pods Frameworks */,
+				97F46E7DAF9B62F0CAFFC878 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSATest;
+			productName = RSATest;
+			productReference = 3C6DFBE51F1D15F5009D9DA3 /* RSATest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C6DFBDD1F1D15F5009D9DA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = RengFou.Inc;
+				TargetAttributes = {
+					3C6DFBE41F1D15F5009D9DA3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DAW493MYAY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C6DFBE01F1D15F5009D9DA3 /* Build configuration list for PBXProject "RSATest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C6DFBDC1F1D15F5009D9DA3;
+			productRefGroup = 3C6DFBE61F1D15F5009D9DA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C6DFBE41F1D15F5009D9DA3 /* RSATest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C6DFBE31F1D15F5009D9DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6DFBF21F1D15F5009D9DA3 /* Assets.xcassets in Resources */,
+				3C6DFBF51F1D15F5009D9DA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97F46E7DAF9B62F0CAFFC878 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSATest/Pods-RSATest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F315FB16EE71A52E2924D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E021B464B59CAB04844F6578 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSATest/Pods-RSATest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C6DFBE11F1D15F5009D9DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6DFC0E1F1D1917009D9DA3 /* CCMPrivateKey.m in Sources */,
+				3C6DFBF01F1D15F5009D9DA3 /* ViewController.m in Sources */,
+				3C6DFBED1F1D15F5009D9DA3 /* main.m in Sources */,
+				3C6DFC0B1F1D1917009D9DA3 /* CCMBase64.m in Sources */,
+				3C6DFC131F1D195C009D9DA3 /* NetworkService.m in Sources */,
+				3C6DFC0F1F1D1917009D9DA3 /* CCMPublicKey.m in Sources */,
+				3C6DFC0C1F1D1917009D9DA3 /* CCMCryptor.m in Sources */,
+				3C6DFC0D1F1D1917009D9DA3 /* CCMKeyLoader.m in Sources */,
+				3C6DFC101F1D1917009D9DA3 /* CSSMRSACryptor.m in Sources */,
+				3C6DFBEA1F1D15F5009D9DA3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C6DFBF31F1D15F5009D9DA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C6DFBF41F1D15F5009D9DA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C6DFBF71F1D15F5009D9DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3C6DFBF81F1D15F5009D9DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3C6DFBFA1F1D15F5009D9DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B7BD1BD7ECB9FC8C9C079C /* Pods-RSATest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DAW493MYAY;
+				INFOPLIST_FILE = RSATest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ianisme.RSATest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C6DFBFB1F1D15F5009D9DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA2E9FD8A4B8D4D3C5868FC /* Pods-RSATest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DAW493MYAY;
+				INFOPLIST_FILE = RSATest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ianisme.RSATest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C6DFBE01F1D15F5009D9DA3 /* Build configuration list for PBXProject "RSATest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6DFBF71F1D15F5009D9DA3 /* Debug */,
+				3C6DFBF81F1D15F5009D9DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6DFBF91F1D15F5009D9DA3 /* Build configuration list for PBXNativeTarget "RSATest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6DFBFA1F1D15F5009D9DA3 /* Debug */,
+				3C6DFBFB1F1D15F5009D9DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C6DFBDD1F1D15F5009D9DA3 /* Project object */;
+}
